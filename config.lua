@@ -1,0 +1,3 @@
+Configuration = {
+    CommandToRegistreNewPlayer = "register",
+}

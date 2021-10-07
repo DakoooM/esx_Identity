@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+        <title>Identity By DakoM#0001 and Bootstrap</title>
+        <link rel="stylesheet" type = "text/css" href="assets/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/Login-Form-Clean.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    </head>
+    <body style="margin: 0px;padding: 0px; background-color:rgba(255,255,255,0);">
+        <section class="text-dark login-clean" id = "log_in_Section" style = "display: none; color: rgba(0, 0, 0, 0);">
+            <form method="post">
+                <div class="illustration" style="color: var(--bs-blue);font-size: 68px;"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" fill="none" style="color: rgb(0,148,255);background: transparent;transform: translate(0px);filter: blur(0px);">
+                        <path d="M15.4857 20H19.4857C20.5903 20 21.4857 19.1046 21.4857 18V6C21.4857 4.89543 20.5903 4 19.4857 4H15.4857V6H19.4857V18H15.4857V20Z" fill="currentColor"></path>
+                        <path d="M10.1582 17.385L8.73801 15.9768L12.6572 12.0242L3.51428 12.0242C2.96199 12.0242 2.51428 11.5765 2.51428 11.0242C2.51429 10.4719 2.962 10.0242 3.51429 10.0242L12.6765 10.0242L8.69599 6.0774L10.1042 4.6572L16.4951 10.9941L10.1582 17.385Z" fill="currentColor"></path>
+                    </svg></div>
+                <div class="mb-3"><input class="form-control" type="text" placeholder="Prénom" id = "MyNameIs"></div>
+                <div class="mb-3" style="width: 246px;height: 0px;margin: 0px;padding: 0px;"></div>
+                <input class="form-control" type="text" placeholder="Nom de Famille" id = "MySubNameIs">
+                <div class="mb-3"></div>
+                <input class="form-control" type="number" placeholder="Taille" id = "MySizeIs">
+                <div class="mb-3"></div>
+                <input class="form-control" type="date" id = "MyDateOfBirth" min = "1960-01-01" max="2000-01-01" name="bday"/>
+                <div class="mb-3"></div>
+                <button class="btn btn-primary d-block w-100" type="submit" style="text-shadow: 0px 0px 4px rgba(0,0,0,0.65);box-shadow: 0px 0px 7px rgba(33,33,33,0.4);" id = "runIt">Crée sont personnage</button>
+            </form>
+        </section>
+        <script src="main.js"></script>
+        <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    </body>
+</html>
